@@ -3,11 +3,12 @@ def check(func):
         if b == 0:
             print("can not divide by 0")
             return
-        func(a,b)
+        print(func(a,b))
     return inside
 
 @check
 def div( a, b):
-    print (a//b)
+    return (a//b)
 
 div(100,10)
+
